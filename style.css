@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
 }
-body {
+main {
   background-color: bisque;
-}
-.page {
-  background-color: aqua;
-  font-size: 16px;
-  margin: 0 auto;
+  height: 100vh;
+  display: flex;
   font-family: monospace;
+  font-size: 16px;
+}
+form {
+  background-color: aqua;
   width: 300px;
+  margin: auto;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
